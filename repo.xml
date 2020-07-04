@@ -1,0 +1,4 @@
+<xml>
+    <remote branch="master" git="https://github.com/DiamondProx/Moudule1.git" source="./" />
+    <remote branch="master" git="https://github.com/DiamondProx/Moudule2.git" source="./" />
+</xml>
