@@ -30,5 +30,24 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-apply plugin: RepoBuild
+
+
+
+//afterEvaluate {
+//    dependencies.add("compile", project(':module1'))
+//}
+
+//task myExec {
+//    println "-->myExec1"
+//    def outputSteam = new ByteArrayOutputStream()
+//    def exeResult = exec {
+//        executable 'bash'
+//        workingDir 'module1/'
+//        standardOutput outputSteam
+//        args '-c', 'git branch'
+//    }
+//    println "-->myExec2" + outputSteam.toString()
+//
+//}
+
 

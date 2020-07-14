@@ -1,2 +1,6 @@
+import com.micro.build.RepoBuild
+
 include ':app', ':buildSrc'
 rootProject.name='LauncherApp'
+
+apply plugin: RepoBuild
